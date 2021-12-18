@@ -1,0 +1,123 @@
+.first {
+    min-height: 700px;
+}
+.controlP {
+    min-height: 700px;
+    background-color: rgb(196, 196, 196);
+}
+h1 {
+    margin-left: 15%;
+}
+.mWidthL ,.mHeigthL,.mBackL,.mBorderL,.mBackIgL,.mMargin_TopL,.mMargin_BottomL ,.mMargin_RightL,.mMargin_LeftL,.mTransformL {
+    margin-left: 30%;
+    font-size: 20px;
+}
+#mWidthI ,#mHeigthI,#mBorderI,#mMargin_TopI, #mMargin_BottomI ,#mMargin_RightI,#mMargin_LeftI  {
+    width: 58px;
+    float:right;
+}
+#mTransformI {
+width: 58px;
+float: right;
+}
+#mBackIgI {
+    width: 158px;
+    float: right;
+}
+#mWidthS,#mHeigthS,#mBorderS,#mMargin_TopS,#mMargin_BottomS,#mMargin_RightS,#mMargin_LeftS {
+    width: 98px;
+    float:right;
+}
+#mTransformS {
+    width: 98px;
+    float:right;
+}
+#mBackS {
+    width: 158px;
+    float:right;
+}
+.black {
+    background: rgb(43, 43, 43);
+    color: rgb(245, 228, 228);
+}
+#demo {
+    transition: 1s;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mWidthL ,.mHeigthL,.mBackL,.mBorderL,.mBackIgL,.mMargin_TopL,.mMargin_BottomL ,.mMargin_RightL,.mMargin_LeftL,.mTransformL {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+    #mWidthS,#mHeigthS,#mBorderS,#mMargin_TopS,#mMargin_BottomS,#mMargin_RightS,#mMargin_LeftS {
+        width: 98px;
+        float:right;
+        margin-right:5% ;
+    }
+    #mBackIgI {
+        width: 158px;
+        float: right;
+        margin-right: 5%;
+    }
+    #mTransformI {
+        width: 58px;
+        float: right;
+        margin-right:5% ;
+    }
+    #mBackS {
+            width: 158px;
+            float:right;
+            margin-right: 5%;
+    }
+    h1 {
+            margin-left: 5%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 780px) {
+    .mWidthL ,.mHeigthL,.mBackL,.mBorderL,.mBackIgL,.mMargin_TopL,.mMargin_BottomL ,.mMargin_RightL,.mMargin_LeftL,.mTransformL {
+        margin-left: 30%;
+        font-size: 20px;
+    }
+    #mWidthS,#mHeigthS,#mBorderS,#mMargin_TopS,#mMargin_BottomS,#mMargin_RightS,#mMargin_LeftS {
+        width: 98px;
+        float:right;
+        margin-right:42% ;
+    }
+    #mBackIgI {
+        width: 158px;
+        float: right;
+        margin-right: 42%;
+    }
+    #mTransformI {
+        width: 58px;
+        float: right;
+        margin-right:42% ;
+    }
+    #mBackS {
+            width: 158px;
+            float:right;
+            margin-right: 42%;
+    }
+    h1 {
+            margin-left: 30%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 920px) {
+    #mWidthS,#mHeigthS,#mBorderS,#mMargin_TopS,#mMargin_BottomS,#mMargin_RightS,#mMargin_LeftS, #mTransformI,#mBackS,#mBackIgI  {
+        margin-right: 17%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+         <div class="first col-xs-12 col-sm-9 col-md-9 col-lg-9 ">
+            <div class="row">
+                <div id="demo"></div>
+            </div>
+         </div>
+         <div class="controlP col-xs-12 col-sm-3 col-md-3 col-lg-3">
+             <h1>Control Panel</h1>
+              <br>
+
+            <!-- for   Width control -->
+
+                <label class="mWidthL" for="text">Width</label>
+                <br>
+                <select name="" id="mWidthS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="em"> em</option>
+                    <option value="vh"> vh</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mWidthI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Height control -->
+
+                <label class="mHeigthL" for="text">Height</label>
+                <br>
+                <select name="" id="mHeigthS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="em"> em</option>
+                    <option value="vh"> vh</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mHeigthI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Background control -->
+
+                <label class="mBackL" for="text">Background</label>
+                <br>
+                <select name="" id="mBackS" class="form-control">
+                    <option value="none"> none</option>
+                    <option value="red"> red</option>
+                    <option value="blue"> blue</option>
+                    <option value="green"> green</option>
+                    <option value="gray"> gray</option>
+                    <option value="yellow"> yellow</option>
+                    <option value="purple"> purple</option>
+                    <option value="white"> white</option>
+                    <option value="lightblue"> lightblue</option>
+                </select>
+                <br><hr>
+
+            <!-- for   Background-Image control -->
+
+                <label class="mBackIgL" for="text">Background-Image</label>
+                <br>
+                <input id="mBackIgI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Border-Radius control -->
+
+                <label class="mBorderL" for="text">Border-Radius</label>
+                <br>
+                <select name="" id="mBorderS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mBorderI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Margin-Top control -->
+
+                <label class="mMargin_TopL" for="text">Margin-Top</label>
+                <br>
+                <select name="" id="mMargin_TopS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mMargin_TopI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Margin-Bottom control -->
+
+                <label class="mMargin_BottomL" for="text">Margin-Bottom</label>
+                <br>
+                <select name="" id="mMargin_BottomS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mMargin_BottomI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Margin-Right control -->
+
+                <label class="mMargin_RightL" for="text">Margin-Right</label>
+                <br>
+                <select name="" id="mMargin_RightS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mMargin_RightI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Margin-Left control -->
+
+                <label class="mMargin_LeftL" for="text">Margin-Left</label>
+                <br>
+                <select name="" id="mMargin_LeftS" class="form-control">
+                    <option value="px"> px</option>
+                    <option value="%"> %</option>
+                </select>
+                <input id="mMargin_LeftI" type="text" class="form-control">
+                <br><hr>
+
+            <!-- for   Transform control -->
+
+                <label class="mTransformL" for="text">Transform</label>
+                <br>
+                <input id="mTransformI" type="text" class="form-control">
+                <select name="" id="mTransformS" class="form-control">
+                    <option value="none"> none</option>
+                    <option value="rotate"> rotate</option>
+                    <option value="scaleX"> scaleX</option>
+                    <option value="scaleY"> scaleY</option>
+                    <option value="skewX"> skewX</option>
+                    <option value="skewY"> skewY</option>
+                </select>
+                <br><hr>
+
+            <!--  the end controls -->
+
+                <button type="button" onclick="controlPanel()" class="btn btn-secondary black btn-lg btn-block">Creat</button>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/index.js"></script>
